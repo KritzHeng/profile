@@ -32,6 +32,9 @@ const nextConfig = {
       }
     ],
   },
+    // Add these options to ensure proper export
+    output: 'export',
+    distDir: 'out', // Use 'out' for GitHub Pages compatibility
 }
 
 module.exports = nextConfig
