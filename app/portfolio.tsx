@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
 import enauthn from '../public/enauthn.png';
 import privacyVisaImage from '../public/privacyvisa.png';
 import zk from '../public/zk.png';
