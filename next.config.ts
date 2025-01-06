@@ -1,9 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  distDir: 'dist', // Set the output directory to 'dist'
-  basePath: '/profile', // Match the repository name
-  trailingSlash: true, // Ensure paths end with a slash
+import { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  output: 'export', // Enable static export
+  distDir: 'dist', // Set the output folder to 'dist'
+  images: {
+    unoptimized: true
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
